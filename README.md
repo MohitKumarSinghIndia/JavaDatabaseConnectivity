@@ -2,13 +2,6 @@
 
 This project demonstrates the use of JDBC (Java Database Connectivity) to connect a Java application with a relational database. It includes examples of establishing a connection, executing SQL queries, and handling database operations efficiently.
 
-## About Me
-
-Hi! I'm **Mohit Kumar Singh**, and I'm on a journey to master data structures and algorithms to improve my coding skills and problem-solving abilities. This repository will serve as a log of my progress and will include notes, explanations, and links to useful resources.
-
-You can reach me at:  
-📧 **Email**: [Mohitkumarsingh.india@gmail.com](mailto:Mohitkumarsingh.india@gmail.com)
-
 ## Prerequisites
 
 - Java Development Kit (JDK) installed
@@ -56,3 +49,8 @@ conn.close();
 - **Port:** 3306
 - **Username:** your_username
 - **Password:** your_password
+
+## You can reach me at:
+
+📧 **Email**: [Mohitkumarsingh.india@gmail.com](mailto:Mohitkumarsingh.india@gmail.com)
+
