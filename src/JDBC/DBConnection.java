@@ -12,6 +12,7 @@ public class DBConnection {
 
     public static Connection getConnection() throws SQLException, IOException {
         if(connection != null){
+            System.out.println("Already Connected!");
             return connection;
         }
 
@@ -28,12 +29,14 @@ public class DBConnection {
         String password = properties.getProperty("db.password");
 
         connection = DriverManager.getConnection(url, user, password);
+        System.out.println("Connected to Database!");
         return connection;
     }
 
     public static void closeConnection() throws SQLException {
         if (connection != null && !connection.isClosed()) {
             connection.close();
+            System.out.println("Disconnected from Database!");
         }
     }
 }
